@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+  <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>clyde</span>wheels</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#vehicles">vehicles</a>
+      <a href="#services">Services</a>
+      <a href="#featured">Featured</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div id="login-btn">
+      <button class="btn">Login</button>
+      <i class="fa-solid fa-user"></i>
+    </div>
+  </header>
+  <div class="login-form-container"> 
+    <span id="close-login-form" class="fas fa-times"></span>
+    <form action="">
+      <h3>user login</h3>
+      <input type="email" placeholder="email" class="box">
+      <input type="password" placeholder="password" class="box">
+      <p>forgot your password <a href="#">click here</a></p>
+      <input type="submit" value="login now" class="btn">
+      <p> or login with</p>
+      <div class="buttons">
+        <a href="#"class="btn">google</a>
+        <a href="#"class="btn">facebook</a>
+      </div>
+      <p>don't have an account <a href="#">create</a></p>
+    </form>
+  </div>
+  <section class="home" id="home">
+    <h1 class="home-parallex" data-speed="-2">find your car</h1>
+    <img class="home-parallex" data-speed="5" src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+    <a href="#" class="btn home-parallex" data-speed="7">explore cars</a>
+  </section>
+  <section class="icons-container">
+    <div class="icons">
+      <i class="fas fa-home"></i>
+      <div class="content">
+        <h3>150+</h3>
+        <p>branches</p>
+      </div>
+    </div>
+    <div class="icons">
+      <i class="fas fa-car"></i>
+      <div class="content">
+        <h3>4770+</h3>
+        <p>cars sold</p>
+      </div>
+    </div>
+    <div class="icons">
+      <i class="fas fa-users"></i>
+      <div class="content">
+        <h3>590+</h3>
+        <p>happy clients</p>
+      </div>
+    </div>
+    <div class="icons">
+      <i class="fas fa-car"></i>
+      <div class="content">
+        <h3>1000+</h3>
+        <p>new cars</p>
+      </div>
+    </div>
+  </section>
+  <!--vehicle section starts-->
+  <div class="vehicles" id="vehicles">
+    <h1 class="heading">popular <span>vehicles</span></h1>
+    <div class="swiper vehicles-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="https://images.unsplash.com/photo-1669691101370-9ee9ee0782dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGV4dXMlMjBjYXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          <div class="content">
+            <h3>lexus</h3>
+            <div class="price"><span>price:</span>Ksh 2,000,000/-</div>
+          </div>
+          <p>
+            new
+            <span class="fas fa-circle"></span>2021
+            <span class="fas fa-circle"></span>automatic
+            <span class="fas fa-circle"></span>petrol
+            <span class="fas fa-circle"></span>183mph
+          </p>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1642189673400-2c5f1253af27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Ym13JTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+          <div class="content">
+            <h3>bmw</h3>
+            <div class="price"><span>price:</span>Ksh 4,000,000/-</div>
+          </div>
+          <p>
+            new
+            <span class="fas fa-circle"></span>2021
+            <span class="fas fa-circle"></span>automatic
+            <span class="fas fa-circle"></span>petrol
+            <span class="fas fa-circle"></span>190mph
+          </p>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          <div class="content">
+            <h3>ferrari</h3>
+            <div class="price"><span>price:</span>Ksh 10,000,000/-</div>
+          </div>
+          <p>
+            new
+            <span class="fas fa-circle"></span>2021
+            <span class="fas fa-circle"></span>automatic
+            <span class="fas fa-circle"></span>petrol
+            <span class="fas fa-circle"></span>183mph
+          </p>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1613586054490-e9d56c2fd27c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8djglMjBjYXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          <div class="content">
+            <h3>v8</h3>
+            <div class="price"><span>price:</span>Ksh 2,000,000/-</div>
+          </div>
+          <p>
+            new
+            <span class="fas fa-circle"></span>2021
+            <span class="fas fa-circle"></span>automatic
+            <span class="fas fa-circle"></span>petrol
+            <span class="fas fa-circle"></span>183mph
+          </p>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+    </div>
+      </div>
+  </section>
+  <section class="services" id="services">
+    <h1 class="heading">our <span>services</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <i class="fas fa-car"></i>
+        <h3>car selling</h3>
+        <p>we sell very high quality cars</p>
+        <a href="#"class="btn">read more</a>
+      </div>
+      <div class="box">
+        <i class="fas fa-car-crash"></i>
+        <h3>car insurance</h3>
+        <p>we give insurance in case of car break down</p>
+        <a href="#"class="btn">read more</a>
+      </div>
+      <div class="box">
+        <i class="fas fa-car-battery"></i>
+        <h3>battery replacement</h3>
+        <p>we replace damage batteries</p>
+        <a href="#"class="btn">read more</a>
+      </div>
+      <div class="box">
+        <i class="fas fa-gas-pump"></i>
+        <h3>oil change</h3>
+        <p>we refill oil and oil change</p>
+        <a href="#"class="btn">read more</a>
+      </div>
+      <div class="box">
+        <i class="fas fa-headset"></i>
+        <h3>24/7 support</h3>
+        <p>we offer 24/7 support to our customers </p>
+        <a href="#"class="btn">read more</a>
+      </div>
+    </div>
+  </section>
+  <!--featured start-->
+  <section class="featured" id="featured">
+    <h1 class="heading"><span>featured</span>cars</h1>
+    <div class=" featured-slider">
+      <div class="wrapper">
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          <h3>new model</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <div class="price">Ksh 3,000,000/-</div>
+          <a href="#" class="btn">check out</a>
+        </div>
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1660985248084-9f4210c9d93d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym13JTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+          <h3>bmw</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <div class="price">Ksh 3,700,000/-</div>
+          <a href="#" class="btn">check out</a>
+        </div>
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1639480002462-f09967b3c018?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3ViYXJ1JTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+          <h3>subaru</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <div class="price">Ksh 1,900,000/-</div>
+          <a href="#" class="btn">check out</a>
+        </div>
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1606314661187-5e6ed0e5739f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGV4dXMlMjBwaG90b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          <h3>lexus</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <div class="price">Ksh 3,900,000/-</div>
+          <a href="#" class="btn">check out</a>
+        </div>
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1515985748416-3723c86f4a83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWF6ZGElMjBwaG90b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          <h3>mazda</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <div class="price">Ksh 2,800,000/-</div>
+          <a href="#" class="btn">check out</a>
+        </div>
+        <div class="box">
+          <img src="https://images.unsplash.com/photo-1621838383027-1b5bd95d1b45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmVueiUyMHBob3RvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          <h3>mercedes benz</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <div class="price">Ksh 3,200,000/-</div>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--review starts-->
+  <section class="review" id="review">
+    <h1 class="heading">client's <span>review</span></h1>
+    <div class="review-slider">
+      <div class="wrapper">
+        <div class="box">
+          <img src="https://media.istockphoto.com/id/1287598154/photo/passport-photo-of-latin-american-man-with-beard.jpg?b=1&s=170667a&w=0&k=20&c=-huleRqnMGpvsOlKm62JvDxd8zWVaJQNxn-YcFuJtaM=" alt="">
+          <div class="content">
+            <p>clydewheel offer best services and quality</p>
+            <h3>ptah clyde</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="https://media.istockphoto.com/id/1316161163/photo/serious-asian-mid-adult-woman-looking-at-the-camera.jpg?b=1&s=170667a&w=0&k=20&c=d2J4DSFlOBLd6wG3MQuA0mrwaNGuDJ_iLqaEg3V_bWo=" alt="">
+          <div class="content">
+            <p>best services ever</p>
+            <h3>mercy jemutai</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="https://media.istockphoto.com/id/502581380/photo/portrait-of-an-african-american-man-with-glasses.jpg?b=1&s=170667a&w=0&k=20&c=-DkFOAFfdL5a2ikO9ZJEVK38KBynSqqasv6bXGncryA=" alt="">
+          <div class="content">
+            <p>clydewheel is always the best place>
+            <h3>fabian eloto</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="https://media.istockphoto.com/id/1266399513/photo/passport-photo-of-a-laughing-mexican-female-young-adult.jpg?b=1&s=170667a&w=0&k=20&c=_ExPpXU7izSZ2XCtmUw8XXzZpui8MMUbPhpB04jwB1g=" alt="">
+          <div class="content">
+            <p>clydewheel offer quality services</p>
+            <h3>naomi nyaboke</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="https://media.istockphoto.com/id/1305257862/photo/passport-photo-of-laughing-mature-adult-latin-american-woman.jpg?b=1&s=170667a&w=0&k=20&c=tNL_v6IXoVEm5EjxlMfMDaKwSEOGp9IeNj7vb31xGY8=" alt="">
+          <div class="content">
+            <p>clydewheel offer best services</p>
+            <h3>marion onchoki</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer starts-->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>our branches</h3>
+        <a href="#"><i class="fa-solid fa-location-dot"></i>nakuru</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i>eldoret</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i>machakos</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i>nairobi</a>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i>home</a
+       href="#"><i class="fa-solid fa-arrow-right"></i>vehicles</>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i>services</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i>featured</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i>review</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i>contact</a>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#"><i class="fa-solid fa-phone"></i>0726755875</a
+       href="#"><i class="fa-solid fa-phone"></i>0701366145</>
+        <a href="#"><i class="fa-solid fa-envelope"></i>ptah12655@gmail.com</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i>machakos, kenya - 201609</a>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#"><i class="fa-brands fa-facebook"></i>facebook</a
+       href="#"><i class="fa-brands fa-twitter"></i>twitter</>
+        <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i>pinterest</a>
+        <a href="#"><i class="fa-brands fa-telegram"></i>telegram</a>
+      </div>
+    </div>
+    <div class="credit">created by peter kipyegon|all right reserved!</div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ <script src="script1.js"></script> 
+</body>
+</html>
